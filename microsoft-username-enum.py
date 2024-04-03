@@ -56,12 +56,12 @@ try:
             successful_addresses += 1
     file.close()
     print("-"*82)
-    print(f"Email addresses successful: {successful_addresses}/{total_attempts}")
+    print(f"Accounts found: {successful_addresses}/{total_attempts}")
 except KeyboardInterrupt:
     file.close()
     print("\nUser interrupted quitting...")
     print("-"*82)
-    print(f"Email addresses successful: {successful_addresses}/{total_attempts}")
+    print(f"Accounts found: {successful_addresses}/{total_attempts}")
 except:
     print("Something happened, quitting.")
 finally:
