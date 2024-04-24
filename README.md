@@ -5,7 +5,7 @@ During a webinar hosted by [Kovert](https://www.linkedin.com/events/hvordanvibry
 ## Installation
 First, clone the repository:
 ```
-git clone https://github.com/ludvikkristoffersen/microsoft-user-enum.git
+git clone https://github.com/ludvikkristoffersen/O365-user-enum.git
 ```
 Secondly, run the requirements.txt file to install the necessary packages used in this script:
 ```
